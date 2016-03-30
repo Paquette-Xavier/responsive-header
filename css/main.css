@@ -58,9 +58,15 @@ nav ul {
 
 nav a {
   white-space: nowrap;
+  display: block;
 }
 
-ul li {
+nav a:hover {
+  background-color: #6c8fe0;
+  color: #fff;
+}
+
+a {
   padding: .3em;
 }
 
